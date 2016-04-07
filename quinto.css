@@ -1,0 +1,41 @@
+.rojo {
+	background-color: #ee3e64;
+}
+
+.cian {
+	background-color: #44accf;
+}
+
+.verde {
+	background-color: #b7d84b;
+}
+
+.amarillo {
+	background-color: yellow;
+
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+div:nth-child(1){
+	left: 0px;
+	top: 0px;
+}
+div:nth-child(2){
+	right: 0px;
+	top: 0px;
+}
+div:nth-child(3){
+	left: 0px;
+	bottom: 0px;
+}
+div:nth-child(4){
+	right: 0px;
+	bottom: 0px;
+}
